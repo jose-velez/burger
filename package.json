@@ -20,10 +20,14 @@
   "homepage": "https://github.com/jose363/burger#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.8",
     "morgan": "^1.8.1",
     "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
   }
 }

@@ -20,12 +20,10 @@ const mysql = require("mysql");
 //===============================================================
 //    Call mysql.createConnection using db options and save to connection variable for export
 //===============================================================
-const connection = mysql.createConnection(d b);
+const connection = mysql.createConnection(db);
 
 /**
  * Connect to mysql server, otherwise console error.
- *
- * BURGER Better implement mysql error handling
  */
 connection.connect((error) => {
   if(error)
